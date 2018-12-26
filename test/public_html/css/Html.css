@@ -1,0 +1,78 @@
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    height: 100px;
+    float: left;
+    
+}
+.main-nav{
+    width: 250px;
+    background: rgba(160,193,199,1.00);
+}
+.main-nav a:hover{
+    background: rgba(118,166,174,1.00);
+}
+.main-nav li{
+    list-style: none;
+}
+.main-nav a{
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px dotted gray;   
+}
+.main-nav .sub-arrow:after {
+    content: '\203A';
+    float:right;
+    margin-right: 20px;
+    transform: rotate(90deg); 
+    -webkit-transform : rotate(90deg); 
+    -moz-transform: rotate(90deg); 
+}
+.main-nav-ul ul{
+    display: none;
+
+}
+.main-nav-ul li.tap ul{
+    display: block;
+
+}
+
+
+.main-nav li.tap .sub-arrow:after{
+    content: '\2039';
+}
+.main-nav-ul ul a:before{
+    content: '\203A';
+}
+
+//////////test area
+
+.main-nav-ul li.tap ul li {
+    // display: block;
+}
+
+
+.main-nav ul li ul a:hover{
+    background: red;
+}
+
+.main-nav ul li ul a.tap{
+    background: red;
+}
+
+/*iframe{
+    position: relative;
+    
+    margin-left: 250px;
+    margin-top: -195px;
+    width: 300px;
+    height: 300px;
+}*/

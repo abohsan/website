@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 6, 2018, 1:53:53 PM
+    Author     : abdu
+*/
+#rcorners2 {
+    border-radius: 50px 50px  50px 50px;
+    background-color:goldenrod;
+    background-image: url(mm.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 139px;  
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+iframe{
+    overflow:auto;
+    background-color: white;
+    margin-right: 30px;
+    
+    height: 1000px;
+}
+#main{
+    background-color: white;
+
+    
+    min-height: 400px;
+    overflow: hidden;
+
+
+}
+#navv{
+    background-color: red;
+    width: 250px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+}
+#contiant{
+    background-color: blueviolet;
+    height: 400px;
+    overflow: scroll;
+}
+header{
+    position: relative;
+    background: gainsboro;
+    height: 200px;
+    overflow: hidden;
+}
+
+/*footer{
+    background-color: greenyellow; 
+
+    min-height: 60px;
+    overflow: hidden;
+
+}*/
+
+
+///////////
+
+
+
+div{
+    height: 100px;
+
+}
+.main-nav{
+    width: 250px;
+    background: rgba(160,193,199,1.00);
+}
+.main-nav a:hover{
+    background: rgba(118,166,174,1.00);
+}
+.main-nav li{
+    list-style: none;
+}
+.main-nav a{
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px dotted gray;   
+}
+.main-nav .sub-arrow:after {
+    content: '\203A';
+    float:right;
+    margin-right: 20px;
+    transform: rotate(90deg); 
+    -webkit-transform : rotate(90deg); 
+    -moz-transform: rotate(90deg); 
+}
+.main-nav-ul ul{
+    display: none;
+
+}
+.main-nav-ul li.tap ul{
+    display: block;
+
+}
+
+
+.main-nav li.tap .sub-arrow:after{
+    content: '\2039';
+}
+.main-nav-ul ul a:before{
+    content: '\203A';
+}
+
+//////////test area
+
+.main-nav-ul li.tap ul li {
+    // display: block;
+}
+
+
+.main-nav ul li ul a:hover{
+    background: red;
+}
+
+.main-nav ul li ul a.tap{
+    background: red;
+}
+
+
